@@ -1,0 +1,6 @@
+[submodule "third_party/lit-code-editor"]
+	path = third_party/lit-code-editor
+	url = https://github.com/rodydavis/lit-code-editor.git
+[submodule "third_party/lit-html-editor"]
+	path = third_party/lit-html-editor
+	url = https://github.com/rodydavis/lit-html-editor.git
