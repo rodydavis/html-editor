@@ -25,6 +25,19 @@ export class HTMLEditor extends LitElement {
       width: 50%;
       overflow-x: scroll;
     }
+    @media screen and (max-width: 720px) {
+      main {
+        display: flex;
+        flex-direction: column;
+      }
+      code-editor {
+        display: none;
+      }
+      rich-text-editor {
+        width: 100%;
+        height: 100%;
+      }
+    }
   `;
 
   render() {
