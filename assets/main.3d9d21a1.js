@@ -132,4 +132,17 @@ import{W as o,a as e,b as i,c as t,d as n,i as a,e as r,h as c,f as d,T as s,n a
       width: 50%;
       overflow-x: scroll;
     }
+    @media screen and (max-width: 720px) {
+      main {
+        display: flex;
+        flex-direction: column;
+      }
+      code-editor {
+        display: none;
+      }
+      rich-text-editor {
+        width: 100%;
+        height: 100%;
+      }
+    }
   `,q=((o,e,i,t)=>{for(var n,a=t>1?void 0:t?I(e,i):e,r=o.length-1;r>=0;r--)(n=o[r])&&(a=(t?n(e,i,a):n(a))||a);return t&&a&&C(e,i,a),a})([p("html-editor")],q);
