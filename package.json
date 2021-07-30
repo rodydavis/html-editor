@@ -15,6 +15,7 @@
     "build": "tsc && vite build"
   },
   "dependencies": {
+    "@material/mwc-icon-button": "^0.22.1",
     "lit": "*",
     "lit-element": "^2.4.0",
     "monaco-editor": "^0.26.1"
